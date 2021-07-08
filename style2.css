@@ -4,16 +4,16 @@ html {
 }
 
 .body-login {
-   margin: 0;
+   /* margin: 0;
    height: 100vh;
    display: flex;
    justify-content: center;
-   align-items: center;
+   align-items: center; */
    background-image: url(images/image7.jfif);
    background-size: cover;
 }
 
-section {
+.main-login {
    margin: 0;
    height: 100vh;
    display: flex;
@@ -21,6 +21,15 @@ section {
    align-items: center;
 
 }
+
+/* section {
+   margin: 0;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+} */
 
 
 /* -- pentru bara de navigatie fixa
@@ -37,13 +46,22 @@ position: sticky sta la locul lui pana cand elementele din acelasi parent trec d
 /*user-info page*/
 
 .body-user-info {
+   /* margin: 0;
+   height: 100vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center; */
+   background-image: url("images/image9.jpg");
+   background-size: cover;
+}
+
+.main-user-info {
    margin: 0;
    height: 100vh;
    display: flex;
    justify-content: center;
    align-items: center;
-   background-image: url("images/image9.jpg");
-   background-size: cover;
 }
 
 .contact-form-useri ul {
@@ -78,6 +96,13 @@ position: sticky sta la locul lui pana cand elementele din acelasi parent trec d
 
 /* user-edit page*/
 
+.main-user-edit {
+   margin: 0;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 .contact-form-usere .submit-button {
    width: auto;
    margin: 0 auto;
