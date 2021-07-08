@@ -1,0 +1,89 @@
+
+html {
+   height: 100%;
+}
+
+.body-login {
+   margin: 0;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url(images/image7.jfif);
+   background-size: cover;
+}
+
+section {
+   margin: 0;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+/* -- pentru bara de navigatie fixa
+position-fixed
+top: 0
+lleft: 0
+width: 100%
+
+box-sizing: border-box - asa bara sta fixata sus si apare marginea si in dreapta
+z-index: se refera la pozitia care este pe axa z, se foloseste cand ai display-flex
+position: sticky sta la locul lui pana cand elementele din acelasi parent trec de el, atunci dispare si el
+ -- */
+
+/*user-info page*/
+
+.body-user-info {
+   margin: 0;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url("images/image9.jpg");
+   background-size: cover;
+}
+
+.contact-form-useri ul {
+   list-style: none;
+   color:blueviolet;
+   text-align: center;
+   
+}
+
+.contact-form-useri ul li {
+    padding: 5px;
+
+}
+
+.edit-button {
+    width: auto;
+    margin: 0 auto;
+    display: table;
+    color:black;
+    background-color:lightskyblue;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.edit-button:hover,
+.edit-button:active {
+    color:mediumpurple;
+    border-bottom: 5px solid ivory;
+}
+
+/* user-edit page*/
+
+.contact-form-usere .submit-button {
+   width: auto;
+   margin: 0 auto;
+   display:table-column;
+   color:black;
+   background-color:lightskyblue;
+   padding: 5px;
+   border: 2px solid black;
+}
